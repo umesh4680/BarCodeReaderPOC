@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C03BB91B8D91D000A16DC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C03BB81B8D91D000A16DC6 /* main.m */; };
+		F1C03BBC1B8D91D000A16DC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C03BBB1B8D91D000A16DC6 /* AppDelegate.m */; };
+		F1C03BBF1B8D91D000A16DC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C03BBE1B8D91D000A16DC6 /* ViewController.m */; };
+		F1C03BC21B8D91D000A16DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C03BC01B8D91D000A16DC6 /* Main.storyboard */; };
+		F1C03BC41B8D91D000A16DC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C03BC31B8D91D000A16DC6 /* Images.xcassets */; };
+		F1C03BC71B8D91D000A16DC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1C03BC51B8D91D000A16DC6 /* LaunchScreen.xib */; };
+		F1C03BD31B8D91D000A16DC6 /* BarCodeReaderPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C03BD21B8D91D000A16DC6 /* BarCodeReaderPOCTests.m */; };
+		F1C03BF41B8D985A00A16DC6 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C03BF31B8D985A00A16DC6 /* libzbar.a */; };
+		F1C03BF61B8D989F00A16DC6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C03BF51B8D989F00A16DC6 /* AVFoundation.framework */; };
+		F1C03BF81B8D98A900A16DC6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C03BF71B8D98A900A16DC6 /* CoreMedia.framework */; };
+		F1C03BFA1B8D98B300A16DC6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C03BF91B8D98B300A16DC6 /* CoreVideo.framework */; };
+		F1C03BFC1B8D98BC00A16DC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C03BFB1B8D98BC00A16DC6 /* QuartzCore.framework */; };
+		F1C03BFE1B8D98C900A16DC6 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C03BFD1B8D98C900A16DC6 /* libiconv.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C03BCD1B8D91D000A16DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C03BAB1B8D91D000A16DC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C03BB21B8D91D000A16DC6;
+			remoteInfo = BarCodeReaderPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C03BB31B8D91D000A16DC6 /* BarCodeReaderPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeReaderPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C03BB71B8D91D000A16DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C03BB81B8D91D000A16DC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1C03BBA1B8D91D000A16DC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1C03BBB1B8D91D000A16DC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1C03BBD1B8D91D000A16DC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1C03BBE1B8D91D000A16DC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1C03BC11B8D91D000A16DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C03BC31B8D91D000A16DC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1C03BC61B8D91D000A16DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1C03BCC1B8D91D000A16DC6 /* BarCodeReaderPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCodeReaderPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C03BD11B8D91D000A16DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C03BD21B8D91D000A16DC6 /* BarCodeReaderPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarCodeReaderPOCTests.m; sourceTree = "<group>"; };
+		F1C03BDF1B8D985A00A16DC6 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		F1C03BE01B8D985A00A16DC6 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		F1C03BE11B8D985A00A16DC6 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		F1C03BE21B8D985A00A16DC6 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		F1C03BE31B8D985A00A16DC6 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		F1C03BE41B8D985A00A16DC6 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		F1C03BE51B8D985A00A16DC6 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		F1C03BE61B8D985A00A16DC6 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		F1C03BE71B8D985A00A16DC6 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		F1C03BE81B8D985A00A16DC6 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		F1C03BE91B8D985A00A16DC6 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		F1C03BEA1B8D985A00A16DC6 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		F1C03BEB1B8D985A00A16DC6 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		F1C03BEC1B8D985A00A16DC6 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		F1C03BED1B8D985A00A16DC6 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		F1C03BEE1B8D985A00A16DC6 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		F1C03BEF1B8D985A00A16DC6 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		F1C03BF01B8D985A00A16DC6 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		F1C03BF11B8D985A00A16DC6 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		F1C03BF21B8D985A00A16DC6 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		F1C03BF31B8D985A00A16DC6 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		F1C03BF51B8D989F00A16DC6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F1C03BF71B8D98A900A16DC6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F1C03BF91B8D98B300A16DC6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F1C03BFB1B8D98BC00A16DC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F1C03BFD1B8D98C900A16DC6 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C03BB01B8D91D000A16DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03BFE1B8D98C900A16DC6 /* libiconv.dylib in Frameworks */,
+				F1C03BFC1B8D98BC00A16DC6 /* QuartzCore.framework in Frameworks */,
+				F1C03BFA1B8D98B300A16DC6 /* CoreVideo.framework in Frameworks */,
+				F1C03BF81B8D98A900A16DC6 /* CoreMedia.framework in Frameworks */,
+				F1C03BF61B8D989F00A16DC6 /* AVFoundation.framework in Frameworks */,
+				F1C03BF41B8D985A00A16DC6 /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03BC91B8D91D000A16DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C03BAA1B8D91D000A16DC6 = {
+			isa = PBXGroup;
+			children = (
+				F1C03BFD1B8D98C900A16DC6 /* libiconv.dylib */,
+				F1C03BFB1B8D98BC00A16DC6 /* QuartzCore.framework */,
+				F1C03BF91B8D98B300A16DC6 /* CoreVideo.framework */,
+				F1C03BF71B8D98A900A16DC6 /* CoreMedia.framework */,
+				F1C03BF51B8D989F00A16DC6 /* AVFoundation.framework */,
+				F1C03BB51B8D91D000A16DC6 /* BarCodeReaderPOC */,
+				F1C03BCF1B8D91D000A16DC6 /* BarCodeReaderPOCTests */,
+				F1C03BB41B8D91D000A16DC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C03BB41B8D91D000A16DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BB31B8D91D000A16DC6 /* BarCodeReaderPOC.app */,
+				F1C03BCC1B8D91D000A16DC6 /* BarCodeReaderPOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C03BB51B8D91D000A16DC6 /* BarCodeReaderPOC */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BDC1B8D985A00A16DC6 /* ZBarSDK */,
+				F1C03BBA1B8D91D000A16DC6 /* AppDelegate.h */,
+				F1C03BBB1B8D91D000A16DC6 /* AppDelegate.m */,
+				F1C03BBD1B8D91D000A16DC6 /* ViewController.h */,
+				F1C03BBE1B8D91D000A16DC6 /* ViewController.m */,
+				F1C03BC01B8D91D000A16DC6 /* Main.storyboard */,
+				F1C03BC31B8D91D000A16DC6 /* Images.xcassets */,
+				F1C03BC51B8D91D000A16DC6 /* LaunchScreen.xib */,
+				F1C03BB61B8D91D000A16DC6 /* Supporting Files */,
+			);
+			path = BarCodeReaderPOC;
+			sourceTree = "<group>";
+		};
+		F1C03BB61B8D91D000A16DC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BB71B8D91D000A16DC6 /* Info.plist */,
+				F1C03BB81B8D91D000A16DC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C03BCF1B8D91D000A16DC6 /* BarCodeReaderPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BD21B8D91D000A16DC6 /* BarCodeReaderPOCTests.m */,
+				F1C03BD01B8D91D000A16DC6 /* Supporting Files */,
+			);
+			path = BarCodeReaderPOCTests;
+			sourceTree = "<group>";
+		};
+		F1C03BD01B8D91D000A16DC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BD11B8D91D000A16DC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C03BDC1B8D985A00A16DC6 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BDD1B8D985A00A16DC6 /* Headers */,
+				F1C03BF31B8D985A00A16DC6 /* libzbar.a */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		F1C03BDD1B8D985A00A16DC6 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BDE1B8D985A00A16DC6 /* zbar */,
+				F1C03BE81B8D985A00A16DC6 /* zbar.h */,
+				F1C03BE91B8D985A00A16DC6 /* ZBarCameraSimulator.h */,
+				F1C03BEA1B8D985A00A16DC6 /* ZBarCaptureReader.h */,
+				F1C03BEB1B8D985A00A16DC6 /* ZBarHelpController.h */,
+				F1C03BEC1B8D985A00A16DC6 /* ZBarImage.h */,
+				F1C03BED1B8D985A00A16DC6 /* ZBarImageScanner.h */,
+				F1C03BEE1B8D985A00A16DC6 /* ZBarReaderController.h */,
+				F1C03BEF1B8D985A00A16DC6 /* ZBarReaderView.h */,
+				F1C03BF01B8D985A00A16DC6 /* ZBarReaderViewController.h */,
+				F1C03BF11B8D985A00A16DC6 /* ZBarSDK.h */,
+				F1C03BF21B8D985A00A16DC6 /* ZBarSymbol.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		F1C03BDE1B8D985A00A16DC6 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				F1C03BDF1B8D985A00A16DC6 /* Decoder.h */,
+				F1C03BE01B8D985A00A16DC6 /* Exception.h */,
+				F1C03BE11B8D985A00A16DC6 /* Image.h */,
+				F1C03BE21B8D985A00A16DC6 /* ImageScanner.h */,
+				F1C03BE31B8D985A00A16DC6 /* Processor.h */,
+				F1C03BE41B8D985A00A16DC6 /* Scanner.h */,
+				F1C03BE51B8D985A00A16DC6 /* Symbol.h */,
+				F1C03BE61B8D985A00A16DC6 /* Video.h */,
+				F1C03BE71B8D985A00A16DC6 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C03BB21B8D91D000A16DC6 /* BarCodeReaderPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C03BD61B8D91D000A16DC6 /* Build configuration list for PBXNativeTarget "BarCodeReaderPOC" */;
+			buildPhases = (
+				F1C03BAF1B8D91D000A16DC6 /* Sources */,
+				F1C03BB01B8D91D000A16DC6 /* Frameworks */,
+				F1C03BB11B8D91D000A16DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarCodeReaderPOC;
+			productName = BarCodeReaderPOC;
+			productReference = F1C03BB31B8D91D000A16DC6 /* BarCodeReaderPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C03BCB1B8D91D000A16DC6 /* BarCodeReaderPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C03BD91B8D91D000A16DC6 /* Build configuration list for PBXNativeTarget "BarCodeReaderPOCTests" */;
+			buildPhases = (
+				F1C03BC81B8D91D000A16DC6 /* Sources */,
+				F1C03BC91B8D91D000A16DC6 /* Frameworks */,
+				F1C03BCA1B8D91D000A16DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C03BCE1B8D91D000A16DC6 /* PBXTargetDependency */,
+			);
+			name = BarCodeReaderPOCTests;
+			productName = BarCodeReaderPOCTests;
+			productReference = F1C03BCC1B8D91D000A16DC6 /* BarCodeReaderPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C03BAB1B8D91D000A16DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "sonora software";
+				TargetAttributes = {
+					F1C03BB21B8D91D000A16DC6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F1C03BCB1B8D91D000A16DC6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F1C03BB21B8D91D000A16DC6;
+					};
+				};
+			};
+			buildConfigurationList = F1C03BAE1B8D91D000A16DC6 /* Build configuration list for PBXProject "BarCodeReaderPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C03BAA1B8D91D000A16DC6;
+			productRefGroup = F1C03BB41B8D91D000A16DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C03BB21B8D91D000A16DC6 /* BarCodeReaderPOC */,
+				F1C03BCB1B8D91D000A16DC6 /* BarCodeReaderPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C03BB11B8D91D000A16DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03BC21B8D91D000A16DC6 /* Main.storyboard in Resources */,
+				F1C03BC71B8D91D000A16DC6 /* LaunchScreen.xib in Resources */,
+				F1C03BC41B8D91D000A16DC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03BCA1B8D91D000A16DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C03BAF1B8D91D000A16DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03BBF1B8D91D000A16DC6 /* ViewController.m in Sources */,
+				F1C03BBC1B8D91D000A16DC6 /* AppDelegate.m in Sources */,
+				F1C03BB91B8D91D000A16DC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C03BC81B8D91D000A16DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C03BD31B8D91D000A16DC6 /* BarCodeReaderPOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C03BCE1B8D91D000A16DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C03BB21B8D91D000A16DC6 /* BarCodeReaderPOC */;
+			targetProxy = F1C03BCD1B8D91D000A16DC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1C03BC01B8D91D000A16DC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C03BC11B8D91D000A16DC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C03BC51B8D91D000A16DC6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C03BC61B8D91D000A16DC6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C03BD41B8D91D000A16DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C03BD51B8D91D000A16DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C03BD71B8D91D000A16DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarCodeReaderPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BarCodeReaderPOC/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1C03BD81B8D91D000A16DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarCodeReaderPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BarCodeReaderPOC/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1C03BDA1B8D91D000A16DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarCodeReaderPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCodeReaderPOC.app/BarCodeReaderPOC";
+			};
+			name = Debug;
+		};
+		F1C03BDB1B8D91D000A16DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarCodeReaderPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCodeReaderPOC.app/BarCodeReaderPOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C03BAE1B8D91D000A16DC6 /* Build configuration list for PBXProject "BarCodeReaderPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C03BD41B8D91D000A16DC6 /* Debug */,
+				F1C03BD51B8D91D000A16DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C03BD61B8D91D000A16DC6 /* Build configuration list for PBXNativeTarget "BarCodeReaderPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C03BD71B8D91D000A16DC6 /* Debug */,
+				F1C03BD81B8D91D000A16DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1C03BD91B8D91D000A16DC6 /* Build configuration list for PBXNativeTarget "BarCodeReaderPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C03BDA1B8D91D000A16DC6 /* Debug */,
+				F1C03BDB1B8D91D000A16DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C03BAB1B8D91D000A16DC6 /* Project object */;
+}
